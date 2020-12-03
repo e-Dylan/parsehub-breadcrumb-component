@@ -44,29 +44,6 @@ let root = {
 	},
 };
 
-// Get contents of current directory, fill contents to render.
-function getContents(path) {
-
-	var contents = [];
-
-	if (path != null) {
-		if (path.type === "dir") {
-			Object.keys(path.children).map((key, index) => {
-				// Map through all children (contents)
-					contents.push({
-						fileName: Object.keys(path.children)[index],
-						fileType: path.children[key].type,
-						path: path,
-						ref: path.children[key],
-					});
-			});
-
-		}
-	}
-	// console.log(contents);
-	return contents;
-}
-
 /**
  * Clicked on a file or directory in contents, add it to breadcrumbs.
  *  
@@ -105,7 +82,6 @@ function App() {
 		<div className="App">
 			<ContentPage 
 				root={root}
-				getContents={getContents} 
 				addCrumb={addCrumb}
 				updatePreviousCrumbs={updatePreviousCrumbs}
 				changeDir={changeDir}
