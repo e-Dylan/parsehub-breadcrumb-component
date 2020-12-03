@@ -99,7 +99,7 @@ export default function ContentsPage(props) {
 
 				{/* Show active filename only if current path is a file. */}
 				{crumbs.length > 0 && crumbs[crumbs.length-1].path.type === "file" &&
-					<div className="active-file" onClick={console.log(crumbs)}>
+					<div className="active-file">
 						<span>Current open file: </span>
 						<a>{crumbs[crumbs.length-1].name}</a>
 					</div>
