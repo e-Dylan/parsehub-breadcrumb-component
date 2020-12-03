@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/parsehub-breadcrumb-component/static/css/main.3c2eeff4.chunk.css",
+    "main.js": "/parsehub-breadcrumb-component/static/js/main.718844a9.chunk.js",
+    "main.js.map": "/parsehub-breadcrumb-component/static/js/main.718844a9.chunk.js.map",
+    "runtime-main.js": "/parsehub-breadcrumb-component/static/js/runtime-main.5388d209.js",
+    "runtime-main.js.map": "/parsehub-breadcrumb-component/static/js/runtime-main.5388d209.js.map",
+    "static/js/2.00a00b79.chunk.js": "/parsehub-breadcrumb-component/static/js/2.00a00b79.chunk.js",
+    "static/js/2.00a00b79.chunk.js.map": "/parsehub-breadcrumb-component/static/js/2.00a00b79.chunk.js.map",
+    "static/js/3.027fa0f6.chunk.js": "/parsehub-breadcrumb-component/static/js/3.027fa0f6.chunk.js",
+    "static/js/3.027fa0f6.chunk.js.map": "/parsehub-breadcrumb-component/static/js/3.027fa0f6.chunk.js.map",
+    "index.html": "/parsehub-breadcrumb-component/index.html",
+    "static/css/main.3c2eeff4.chunk.css.map": "/parsehub-breadcrumb-component/static/css/main.3c2eeff4.chunk.css.map",
+    "static/js/2.00a00b79.chunk.js.LICENSE.txt": "/parsehub-breadcrumb-component/static/js/2.00a00b79.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5388d209.js",
+    "static/js/2.00a00b79.chunk.js",
+    "static/css/main.3c2eeff4.chunk.css",
+    "static/js/main.718844a9.chunk.js"
+  ]
+}
