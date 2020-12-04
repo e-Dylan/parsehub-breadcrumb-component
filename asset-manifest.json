@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/parsehub-breadcrumb-component/static/css/main.3c2eeff4.chunk.css",
-    "main.js": "/parsehub-breadcrumb-component/static/js/main.fa27e058.chunk.js",
-    "main.js.map": "/parsehub-breadcrumb-component/static/js/main.fa27e058.chunk.js.map",
+    "main.js": "/parsehub-breadcrumb-component/static/js/main.018e1c4d.chunk.js",
+    "main.js.map": "/parsehub-breadcrumb-component/static/js/main.018e1c4d.chunk.js.map",
     "runtime-main.js": "/parsehub-breadcrumb-component/static/js/runtime-main.331cff31.js",
     "runtime-main.js.map": "/parsehub-breadcrumb-component/static/js/runtime-main.331cff31.js.map",
     "static/js/2.2c1385cd.chunk.js": "/parsehub-breadcrumb-component/static/js/2.2c1385cd.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.331cff31.js",
     "static/js/2.2c1385cd.chunk.js",
     "static/css/main.3c2eeff4.chunk.css",
-    "static/js/main.fa27e058.chunk.js"
+    "static/js/main.018e1c4d.chunk.js"
   ]
 }
