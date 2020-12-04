@@ -59,7 +59,6 @@ export default function ContentsPage(props) {
 								// Find the new path to the index of the crumb clicked on, using the current path.
 								var newPath = "";
 								var curPath = currentPath.split('/');
-								console.log(curPath);
 								for (var i = 0; i < index+1; i++) {
 									// avoid adding a / to the end of the path.
 									if (i == index)
@@ -67,7 +66,6 @@ export default function ContentsPage(props) {
 									else
 										newPath += `${curPath[i]}/`
 								}
-								console.log(newPath);
 								setCurrentPath(newPath);
 							}}>{crumb}</a>
 						</li>
