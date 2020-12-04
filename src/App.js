@@ -9,41 +9,6 @@ import ContentPage from './components/ContentPage';
 // set children.parent = currentPath, give each child of object the children object.
 // in getContents - for files: use fileName: path
 
-let root = {
-	type: "dir",
-	children: {
-			home: {
-				type: "dir",
-				children: {
-					myname: {
-						type: "dir",
-						children: {
-							"filea.txt": {
-								type: "file",
-							},
-							"fileb.txt": {
-								type: "file",
-							},
-							"projects": {
-								type: "dir",
-								children: {
-									mysupersecretproject: {
-										type: "dir",
-										children: {
-											mysupersecretfile: {
-											type: "file",
-										},
-									},
-								}
-							},
-						},
-					}
-				},
-			},
-		}
-	},
-};
-
 /**
  * Clicked on a file or directory in contents, add it to breadcrumbs.
  *  
@@ -81,7 +46,6 @@ function App() {
 	return (
 		<div className="App">
 			<ContentPage 
-				root={root}
 				addCrumb={addCrumb}
 				updatePreviousCrumbs={updatePreviousCrumbs}
 				changeDir={changeDir}
